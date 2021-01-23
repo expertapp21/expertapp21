@@ -1,6 +1,10 @@
 import "./styles.css";
-import AuthScreen from "./components/auth";
+import SignInScreen from "./components/SignInScreen";
 
 export default function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <SignInScreen />
+    </div>
+  );
 }
